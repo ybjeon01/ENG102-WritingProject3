@@ -14,8 +14,6 @@ import Main1 from './components/Main1'
 import Main2 from './components/Main2'
 import Main3 from './components/Main3'
 
-import Test from './components/Test'
-
 
 function App() {
   let deck = useRef();
@@ -44,7 +42,6 @@ function App() {
             <Main1 indexv={0} indexh={2} />
             <Main2 indexv={0} indexh={3} />
             <Main3 indexv={0} indexh={4} />
-            <Test />
           </div>
         </div>
       </Context.Provider>
