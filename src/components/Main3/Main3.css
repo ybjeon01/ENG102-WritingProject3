@@ -1,0 +1,105 @@
+.main3-title {
+  z-index: 12;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("./imgs/title-background.jpg");
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main3-title div {
+  z-index: 13;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.main3-title p {
+  z-index: 14;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  color: white;
+  margin-bottom: 1rem;
+  line-height: 8rem;
+}
+
+
+.main3-container {
+  width: 100%;  
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+} 
+
+
+.main3-explanation {
+  width: 80%;
+  height: 90%;
+
+  border: 4px solid rgb(200, 200, 200);
+  border-radius: 15px;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1rem;
+  overflow-y: auto;
+}
+
+.main3-explanation h1 {
+  margin: 1rem 1.5rem;
+}
+
+.main3-explanation-paragraph {
+  text-indent: 3rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: left;
+}
+
+
+.main3-example {
+  border-radius: 8px;
+
+  text-decoration: underline blue;
+  transition: all 300ms ease-in
+}
+
+.main3-example:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+
+.main3-example-content-container {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+
+.main3-example-content-explanation {
+  text-indent: 3rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: left;
+}
+
+.main3-example-content-link {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: left;
+}

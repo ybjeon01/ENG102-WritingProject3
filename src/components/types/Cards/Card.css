@@ -1,0 +1,9 @@
+.card-container {
+  box-shadow: none !important;
+}
+
+.card-image {
+  display: block;
+  width: 100% !important;
+  margin: 0 !important;
+}

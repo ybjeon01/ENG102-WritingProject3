@@ -1,0 +1,78 @@
+.intro-container {
+  width: 100%;  
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+  /* without this property, items will overflow over height */
+  grid-template-rows: minmax(0, 1fr);
+}
+
+.intro-explanation {
+  border: 4px solid rgb(200, 200, 200);
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1rem;
+  overflow-y: auto;
+}
+
+.intro-explanation-paragraph {
+  text-indent: 2rem;
+  font-size: 1.0rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.intro-explanation-history {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-start;
+
+  border: 1px solid rgb(200, 200, 200);
+  padding: 4px;
+}
+
+.intro-explanation-history-card {
+  margin-right: 0.5rem;
+  width: 20%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.intro-explanation-history-card img {
+  height: 200px;
+}
+
+.intro-explanation-help {
+  margin: 0.4rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.intro-examples {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.intro-example {
+  object-fit: contain;
+  width: 45%;
+  margin: 0.3rem;
+  transition: all 500ms ease-out;
+  border-radius: 15px;
+}
+
+.intro-example p {
+  margin-top: 0.3rem;
+}
+
+.intro-example:hover {
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5), -3px -3px 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
